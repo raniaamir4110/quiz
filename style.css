@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: bubblegum ;
+    src: url(./fonts/BubblegumSans-Regular.ttf);
+}
+body {
+    background-image: url("./images/bg2.jpg");
+    background-size: cover;
+    
+}
+.quizbox {
+    width: 800px;
+    height: 30vh;
+    background: white;
+    padding: 25px 30px;
+    border: 5px solid #252d58;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+h1 {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    font-family: bubblegum;
+    text-align: center;
+    color: #252d58;
+    font-size: 50px;
+    margin-top: 20px;
+}
+#next-btn {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #252d58;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
